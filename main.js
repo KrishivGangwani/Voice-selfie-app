@@ -25,7 +25,7 @@ function speak(){
     speak_data = "Taking your selfie in 5 seconds";
     var utterThis = new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
-    webcam.attach(camera);
+    Webcam.attach(camera);
 
     setTimeout(function(){
         snapshot();
